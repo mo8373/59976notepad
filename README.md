@@ -96,14 +96,14 @@ Here's an [example](https://www.kauligmedia.com/media/1589/sitemap-01.jpg). Most
 
 ## User Stories or Use Cases
 
-(___TODO__: Write out how your application will be used through [user stories](http://en.wikipedia.org/wiki/User_story#Format)_)
-
-1. As non-registered user, I can create a new account on the site.
-2. As a user, I can log in to the site.
-3. As a user, I can view items for sale.
-4. As a user, I can add items to a shopping cart.
-5. as a user, I can remove items from a shopping cart.
-6. as a user, I can purchase items in my cart.
+1. As a visitor, I can register for an account on the app.
+2. As a user, I can sign in to my account.
+3. As a user, I can create a plain text note.
+4. As a user, I can delete a note created by me.
+5. As a user, I can update a note created by me.
+6. As a user, I can create tags for which I can use to tag to my notes.
+7. For instance, I can create a “Chores” tag, which I can then use to tag a subset of my notes as “Chores” notes. 
+8. As a user, I can search/view notes with a particular tag.
 
 ## References Used
 
