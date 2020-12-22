@@ -1,5 +1,14 @@
 # NoteTakingAppfor59976
 
+
+# 59976notepad
+
+
+## Overview
+
+(___TODO__: A brief one or two paragraph, high-level description of your project_)
+
+The idea is to create a note taking application that will meet the following requirements:
 * As a visitor, I can register for an account on the app.
 * As a user, I can sign in to my account.
 * As a user, I can create a plain text note.
@@ -8,18 +17,6 @@
 * As a user, I can create tags for which I can use to tag to my notes.
 * For instance, I can create a “Chores” tag, which I can then use to tag a subset of my notes as “Chores” notes. 
 * As a user, I can search/view notes with a particular tag.
-
-
-The content below is an example submission document. Replace the text below the lines marked "__TODO__" with details specific to your project. Remove the "TODO" lines.
-
-(___TODO__: Your project name_)
-
-# Shopalot
-
-
-## Overview
-
-(___TODO__: A brief one or two paragraph, high-level description of your project_)
 
 
 ## Getting Started
