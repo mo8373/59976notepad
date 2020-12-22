@@ -9,10 +9,8 @@ import FormHelperText from "@material-ui/core/FormHelperText";
 import FormControl from "@material-ui/core/FormControl";
 import "./Forgotpassword.css";
 import Card from "@material-ui/core/Card";
-import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
-let database = firebaseApp.database().ref("/");
 
 export default class ForgotPassword extends React.Component {
   constructor() {

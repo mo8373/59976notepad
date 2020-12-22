@@ -38,7 +38,6 @@ export default class CreateNotes extends React.Component {
 
   AddNotes = () => {
     let { title, desc, tags, userName } = this.state;
-    const uid = this.state.uid;
 
     if (title === "") {
       alert("Note Title");

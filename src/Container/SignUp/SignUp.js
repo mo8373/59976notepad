@@ -23,7 +23,6 @@ class SignUp extends React.Component {
     };
   }
   signup = () => {
-    let value = this.state.value;
     let data = this.state;
     if (data.password && data.name && data.password) {
       firebaseApp
