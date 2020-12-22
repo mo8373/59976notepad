@@ -36,50 +36,31 @@ You will need `node` and `npm` installed globally on your machine.
 
 ## Data Model
 
-(___TODO__: A description of your application's data and their relationships to each other_)
+The application will store users, and notes.
 
-The application will store user, items, and orders.
+- Users can have multiple notes.
+- Notes can have an author (the user), a description, tags, and title.
 
-- Users can have many orders.
-- Orders can have many items.
-
-(___TODO__: Sample resources_)
 
 An Example `User`:
 
 ```javascript
 {
-  id: 5,
-  firstName: "Mary",
-  lastName: "Jane"
+      "email" : "mark8@gmail.com",
+      "uid" : "CTTZmApJhDbPJMBBaAvVuXsB0Mt1",
+      "user" : "mark"
 }
 ```
 
-An Example `Item`:
+An Example `Note`:
 
 ```javascript
 {
-  id: 3,
-  name: "Lamp",
-  price: "$19.99"
-}
-```
-
-An Example `Order`:
-
-```javascript
-{
-  id: 1,
-  user_id: 5,// a reference to a User object
-}
-```
-
-An Example `OrderItems`:
-
-```javascript
-{
-  item_id: 3,
-  order_id: 1 // References an Order object
+      "author" : "mark",
+      "desc" : "clean the sink\nclean the fridge",
+      "tags" : [ "chores" ],
+      "title" : "stuff to do today in kitchen",
+      "uid" : "CTTZmApJhDbPJMBBaAvVuXsB0Mt1"
 }
 ```
 
