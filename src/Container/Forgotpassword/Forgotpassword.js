@@ -26,7 +26,7 @@ export default class ForgotPassword extends React.Component {
   }
   updataPassword = () => {
     var auth = firebaseApp.auth();
-    var emailAddress = "sk4252116@gmail.com";
+    var emailAddress = "marksmithnotes@gmail.com";
 
     auth.sendPasswordResetEmail(emailAddress)
       .then((res) => {

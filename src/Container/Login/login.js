@@ -49,12 +49,7 @@ class Login extends React.Component {
         .signInWithEmailAndPassword(data.email, data.password)
         .then((res) => {
           this.setState({ helperText: "Login successfully!", error: false });
-          this.props.history.push({
-            pathname: "/createquestion",
-            state: {
-              uid: res.user.uid,
-            },
-          });
+          
           localStorage.setItem("user", res.user.email);
         })
         .catch((err) => {
