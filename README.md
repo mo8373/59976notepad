@@ -80,7 +80,13 @@ An Example `Note`:
 
 ## References Used
 
-(___TODO__: List any tutorials or material referenced that you've based your code off of_)
+Much research was done, here are some links with education I've learned in order to help create this.
+
+https://www.youtube.com/watch?v=Ke90Tje7VS0
+https://www.youtube.com/watch?v=zQyrwxMPm88
+https://www.youtube.com/watch?v=3qnrfkeguXg
+https://blog.flexiple.com/react-hooks-learn-by-building-a-notes-app/
+
 
 ## Authors
 Moshe Oppenheim
