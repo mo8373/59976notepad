@@ -82,10 +82,10 @@ An Example `Note`:
 
 Much research was done, here are some links with education I've learned in order to help create this.
 
-https://www.youtube.com/watch?v=Ke90Tje7VS0
-https://www.youtube.com/watch?v=zQyrwxMPm88
-https://www.youtube.com/watch?v=3qnrfkeguXg
-https://blog.flexiple.com/react-hooks-learn-by-building-a-notes-app/
+* https://www.youtube.com/watch?v=Ke90Tje7VS0
+* https://www.youtube.com/watch?v=zQyrwxMPm88
+* https://www.youtube.com/watch?v=3qnrfkeguXg
+* https://blog.flexiple.com/react-hooks-learn-by-building-a-notes-app/
 
 
 ## Authors
