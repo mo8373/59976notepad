@@ -99,14 +99,14 @@ export default class CreateNotes extends React.Component {
               <TextField
                 id="outlined-basic"
                 variant="outlined"
-                placeholder="Write notes title here"
+                placeholder="Note title..."
                 value={title}
                 onChange={(e) => this.setState({ title: e.target.value })}
               />
               <br />
               <textarea
                 style={{ height: 300, padding: 5 }}
-                placeholder="Write notes desciption here.."
+                placeholder="Type something here..."
                 value={desc}
                 onChange={(e) => this.setState({ desc: e.target.value })}
               ></textarea>

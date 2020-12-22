@@ -91,7 +91,7 @@ export default class EditNotes extends React.Component {
               <br />
               <textarea
                 style={{ height: 300, padding: 5 }}
-                placeholder="Write notes desciption here.."
+                placeholder="Type something here..."
                 value={desc}
                 onChange={(e) => this.setState({ desc: e.target.value })}
               ></textarea>
