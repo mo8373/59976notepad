@@ -6,7 +6,6 @@ import Paper from "@material-ui/core/Paper";
 import firebaseApp from "../../Config/Firebase/Firebase";
 import "./CreateNotes.css";
 import TextField from "@material-ui/core/TextField";
-import DoneIcon from "@material-ui/icons/Done";
 import Chip from "@material-ui/core/Chip";
 
 let database = firebaseApp.database().ref("/");
@@ -42,11 +41,11 @@ export default class CreateNotes extends React.Component {
     const uid = this.state.uid;
 
     if (title === "") {
-      alert("Please enter title");
+      alert("Note Title");
     } else if (desc === "") {
-      alert("Please enter notes description");
+      alert("Type something here...");
     } else if (tags.length === 0) {
-      alert("Please add search tags");
+      alert("Add search tags");
     } else {
       database.child("Notes/").push({
         title,

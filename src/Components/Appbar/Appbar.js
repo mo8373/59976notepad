@@ -99,63 +99,7 @@ console.log(props.popup)
           <Typography variant="h6" className={classes.title} onClick={()=>props.props.push("Home")} >
            <img  src={require('../../images/notes.png')} style={{height:30,widht:30}}/>
           </Typography>
-          {/* {props.popup ?
-          <div>
-            {props.userData ? (
-              <>
-                <StyledBadge
-                  overlap="circle"
-                  anchorOrigin={{
-                    vertical: "bottom",
-
-                    horizontal: "right",
-                  }}
-                  variant="dot"
-                  onClick={() => setdisplay("block")}
-                >
-                  <Avatar
-                    alt="Remy Sharp"
-                    style={{ backgroundColor: "orange" }}
-                  >
-                    {user.user.charAt(0).toUpperCase()}
-                  </Avatar>
-                </StyledBadge>
-              </>
-            ) : (
-              <StyledBadge
-                onClick={() => setdisplay("")}
-                overlap="circle"
-                anchorOrigin={{
-                  vertical: "bottom",
-                  horizontal: "right",
-                }}
-                variant="dot"
-              >
-                <Avatar alt="Remy Sharp" style={{ backgroundColor: "grey" }} />
-              </StyledBadge>
-            )}
-          </div>:""}
-        </Toolbar>
-        {props.popup ?
-        <div className="_popup" style={{ display: display }}>
-          <List component="nav">
-           
-              {props.showStuden ?
-               <ListItem button onClick={() =>  props.props.push("/quiztaken")}>
-                
-              <ListItemText style={{ color: "rgb(71, 71, 133)" }}>
-                Students
-              </ListItemText>
-            </ListItem>:
-            ""}
-            <Divider />
-          </List>
-          <ListItem button onClick={() => logout()}>
-              <ListItemText style={{ color: "rgb(71, 71, 133)" }}>
-                Log out
-              </ListItemText>
-            </ListItem>
-        </div>:""} */}
+          
         <Typography className="_pages" onClick={() =>  props.props.push("/CreateNotes")}>Create a New Note</Typography>
         <Typography className="_pages" onClick={()=>props.props.push("MyNotes")}>Notes By Me</Typography>
         <Typography className="_pages" onClick={() => logout()}><ExitToAppIcon /></Typography>
