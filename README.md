@@ -66,7 +66,7 @@ An Example `Note`:
 
 ## Site map
 
-![alt text] (https://github.com/mo8373/59976notepad/blob/main/Greenshot%202020-12-22%2016.27.17.png)
+![alt text](https://github.com/mo8373/59976notepad/blob/main/Greenshot%202020-12-22%2016.27.17.png)
 ## User Stories or Use Cases
 
 1. As a visitor, I can register for an account on the app.
