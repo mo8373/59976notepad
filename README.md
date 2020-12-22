@@ -1,12 +1,6 @@
-# NoteTakingAppfor59976
-
-
 # 59976notepad
 
-
 ## Overview
-
-(___TODO__: A brief one or two paragraph, high-level description of your project_)
 
 The idea is to create a note taking application that will meet the following requirements:
 * As a visitor, I can register for an account on the app.
