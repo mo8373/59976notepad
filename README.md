@@ -4,6 +4,9 @@
 
 The idea is to create an easy to use note taking application that can be accessed via the web. Users should be able to maintain their own notes, update/edit/delete them as well as use tag features and have the ability to sort through their notes by tag. 
 
+This app will be accessible via Heroku at:
+https://notepad59976.herokuapp.com/
+
 
 ## Getting Started
 
