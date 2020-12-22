@@ -14,12 +14,29 @@ The idea is to create a note taking application that will meet the following req
 
 
 ## Getting Started
-(___TODO__: These instructions will get you a copy of the project up and running on your local machine for development and testing purposes_)
+
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+
+Installation:
+
+`npm install`  
+
+To Run Test Suite:  
+
+`npm test`  
+
+To Start Server:
+
+`npm start`  
+
+To Visit App:
+
+`localhost:3000/signup`  
 
 
 ## Requirements
 
-(___TODO__: List out any technologies needed to run your project_)
+You will need `node` and `npm` installed globally on your machine.
 
 
 ## Data Model
