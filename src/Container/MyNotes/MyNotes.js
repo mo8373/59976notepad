@@ -103,7 +103,7 @@ export default class MyNotes extends React.Component {
                 );
               })
             ) : (
-              <Typography>There is no any notes published yet!</Typography>
+              <Typography>There aren't any notes published yet!</Typography>
             )}
           </Grid>
         </Grid>
