@@ -92,7 +92,7 @@ export default class MyNotes extends React.Component {
                             this.props.history.push("ViewNotes", { data: val })
                           }
                         >
-                          View Notes
+                          View This Note
                         </Button>
                       </div>
                     </div>

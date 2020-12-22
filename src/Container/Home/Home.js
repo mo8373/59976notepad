@@ -124,7 +124,7 @@ export default class Home extends React.Component {
                         variant="outlined"
                         className="_viewBtn"
                       >
-                        View Notes
+                        View This Note
                       </Button>
                     </div>
                     <div style={{ fontSize: "10px", color: "grey" }}>
